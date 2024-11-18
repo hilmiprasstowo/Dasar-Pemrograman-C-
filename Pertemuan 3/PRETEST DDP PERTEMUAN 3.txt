@@ -1,0 +1,73 @@
+PRETEST DDP PERTEMUAN 3
+
+JENIS A
+1. Apa yang dimaksud dengan Proses Output dalam program?
+2. Apa perintah untuk menginputkan data ke program C++ dan C (input)?
+3. Buatkan struktur/sintaks program sederhana yang mengaplikasikan fungsi input dengan bahasa C (harus bisa di-run dan mengaplikasikan variabel)!
+
+JENIS B
+1. Apa yang dimaksud dengan Proses Input dalam program?
+2. Apa library C++ dan C yang harus dipanggil untuk mengaktifkan fungsi I/O?
+3. Buatkan struktur/sintaks program sederhana yang mengaplikasikan fungsi output dengan bahasa C (harus bisa di-run dan mengaplikasikan variabel)!
+
+JENIS C
+1. Apa yang dimaksud dengan Proses Output dalam program?
+2. Apa perintah untuk menampilkan data dari program C++ dan C ke konsol (output)?
+3. Buatkan struktur/sintaks program sederhana yang mengaplikasikan fungsi input dengan bahasa C++ (harus bisa di-run dan mengaplikasikan variabel)!
+
+JENIS D
+1. Apa yang dimaksud dengan Proses Input dalam program?
+2. Apa perbedaan mendasar antara bahasa C dan C++ dalam perihal penggunaan 'namespace'?
+3. Buatkan struktur/sintaks program sederhana yang mengaplikasikan fungsi output dengan bahasa C++ (harus bisa di-run dan mengaplikasikan variabel)!
+
+JAWABAN:
+JENIS A
+1.  Proses/tindakan/langkah di mana program mengirimkan atau menampilkan hasil dari suatu operasi/perhitungan/pemrosesan ke perangkat output, seperti layar (monitor), konsol, file, atau perangkat lainnya.
+2. cin dan scanf()
+3. ----
+#include <stdio.h>
+
+int main() {
+     int x;
+     scanf("%d", &x);
+    return 0;
+}
+
+JENIS B
+1.  Proses/tindakan/langkah di mana program menerima data atau informasi dari pengguna atau sumber eksternal lainnya seperti keyboard (interaksi pengguna), file, sensor, atau perangkat lain.
+2. <iostream> dan <stdio.h>
+3. ----
+#include <stdio.h>
+
+int main() {
+     int x = 1;
+     printf(%d", x);
+    return 0;
+}
+
+JENIS C
+1.  Proses/tindakan/langkah di mana program mengirimkan atau menampilkan hasil dari suatu operasi/perhitungan/pemrosesan ke perangkat output, seperti layar (monitor), konsol, file, atau perangkat lainnya.
+2. cout dan printf()
+3. ----
+#include <iostream>
+using namespace std;
+
+int main() {
+     int x;
+     cin >> x;
+    return 0;
+}
+
+JENIS D
+1.  Proses/tindakan/langkah di mana program menerima data atau informasi dari pengguna atau sumber eksternal lainnya seperti keyboard (interaksi pengguna), file, sensor, atau perangkat lain.
+2. Ada konsep 'namespace' dalam C++ sedangkan dalam C tidak ada.
+3. ----
+#include <iostream>
+using namespace std;
+
+int main() {
+     int x = 1;
+     cout << x;
+    return 0;
+}
+
