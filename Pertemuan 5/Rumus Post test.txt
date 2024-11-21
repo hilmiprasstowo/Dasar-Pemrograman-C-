@@ -1,0 +1,46 @@
+ Rumus Post test:
+
+
+SUHU:
+1. Celcius (C) ke Skala Lain:
+   - Celcius ke Fahrenheit:
+     F = (9.0 / 5.0) * C + 32
+   - Celcius ke Kelvin:
+     K = C + 273
+
+2. Kelvin (K) ke Skala Lain:
+   - Kelvin ke Celcius:
+     C = K - 273
+   - Kelvin ke Fahrenheit:
+     F = (9.0 / 5.0) * (K - 273) + 32
+
+3. Fahrenheit (F) ke Skala Lain:
+   - Fahrenheit ke Celcius:
+     C = (5.0 / 9.0) * (F - 32)
+   - Fahrenheit ke Kelvin:
+     K = (5.0 / 9.0) * (F - 32) + 273
+
+
+PANJANG :
+Meter (M) ke Kilometer (K): panjang / 1000
+Meter (M) ke Centimeter (C): panjang * 100
+Kilometer (K) ke Meter (M): panjang * 1000
+Kilometer (K) ke Centimeter (C): panjang * 100000
+Centimeter (C) ke Meter (M): panjang / 100
+Centimeter (C) ke Kilometer (K): panjang / 100000
+
+WAKTU :
+Detik (S) ke Menit (M): waktu / 60
+Detik (S) ke Jam (H): waktu / 3600
+Menit (M) ke Detik (S): waktu * 60
+Menit (M) ke Jam (H): waktu / 60
+Jam (H) ke Detik (S): waktu * 3600
+Jam (H) ke Menit (M): waktu * 60
+
+BERAT : 
+Gram ke Kilogram: Kilogram = Gram / 1000
+Gram ke Ton: Ton = Gram / 1,000,000
+Kilogram ke Gram: Gram = Kilogram * 1000
+Kilogram ke Ton: Ton = Kilogram / 1000
+Ton ke Gram: Gram = Ton * 1,000,000
+Ton ke Kilogram: Kilogram = Ton * 1000
