@@ -1,0 +1,39 @@
+Soal Pretest DDP
+Kode A
+
+1. Jelaskan apa yang dimaksud dengan fungsi predefined atau fungsi standar?
+2. Berikan minimal 3 contoh fungsi predefined pada c++ dan kegunaannya?
+3. Tuliskan contoh kode program dalam C++ untuk membuat fungsi penjumlahan antara 2 buah angka!
+
+Kode B 
+1. Perbedaan Fungsi dengan Nilai Kembalian dan Tanpa Nilai Kembalian?
+2. Jelaskan mengapa kita harus menggunakan fungsi dalam pemrograman? 
+3. Berikan masing-masing 1 contoh fungsi dengan Nilai Kembalian dan Tanpa Nilai Kembalian.
+
+Jawaban 
+Kode A 
+
+1. Fungsi predefined atau fungsi standar adalah fungsi yang sudah disediakan oleh C++ dalam pustaka atau library. Fungsi ini dapat langsung digunakan tanpa perlu mendefinisikannya sendiri.
+2. pow() → Operasi matematika untuk perpangkatan.
+abs() → Nilai absolut (selalu positif).
+toupper() → Mengonversi karakter ke huruf besar.
+3. int tambah(int a, int b) {
+    return a + b;
+}
+
+Kode B 
+1. Fungsi dengan mengembalikan nilai tertentu ke pemanggilnya menggunakan kata kunci return, sedangkan fungsi tanpa nilai kembalian adalah fungsi yang tidak mengembalikan nilai apa pun. Biasanya digunakan untuk melakukan aksi tertentu, seperti mencetak ke layar
+2. Reusabilitas Kode: Mengurangi duplikasi dan mempermudah penggunaan ulang.
+Modularitas: Membagi program menjadi bagian kecil yang lebih terorganisir.
+Efisiensi Pengembangan: Mempercepat pembuatan program.
+Meningkatkan Keterbacaan: Kode lebih mudah dipahami.
+3. 
+
+int tambah(int a, int b) {
+    return a + b;
+}
+
+void tampilkanPesan() {
+    cout << "Hello world!" <<endl;
+}
+
